@@ -48,7 +48,7 @@ export default function News({selectedOption}) {
             <div>{isLoading? <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>: ""}</div>
             {news && news.map((story) => (
                 <div className="news__card" key={uuidv4()} >
-                    <a href={story.url}>
+                    <a target="_blank" rel="noopener noreferrer" href={story.url}>
                     <h2>{story.title}</h2>
                     <p>{story.source}</p>
                     </a>
