@@ -4,11 +4,7 @@
   max-width: 600px;
   margin: auto;
 }
-@media only screen and (max-width: 600px) {
-  .news__wrapper {
-    max-width: 300;
-  }
-}
+
 .news__card {
   background: rgb(233, 233, 233);
   padding: 10px 10px;
